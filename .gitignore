@@ -1,7 +1,64 @@
-# Common files to ignore
-node_modules/
-.env
-.DS_Store
-*.log
-dist/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node/Next.js
+node_modules/
+.next/
+out/
+.vercel
+.env*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.pem
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug logs
+*.log
+
+# Production build
+build/
+dist/
+
+# Coverage directory
+coverage/
+
+# Local database
+*.sqlite3
+*.db
